@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30e59580-c453-45f8-b7a5-75d64bba30f6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/bookings.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/items.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/reviews.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/booking_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/item_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/review_test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/city.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20180614150712_create_cities.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/cache/bundler/git/jazz_hands-86c8ec83ffd83a3e7949851aa646ebb6af967a38/FETCH_HEAD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/bundler/gems/jazz_hands-5e4b48f14588" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/bundler/gems/jazz_hands-5e4b48f14588" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -113,13 +107,8 @@
             <path>
               <item name="market_api" type="b2602c69:ProjectViewProjectNode" />
               <item name="market_api" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="market_api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="market_api" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,15 +246,16 @@
       <updated>1528775777537</updated>
       <workItem from="1528775778763" duration="1937000" />
       <workItem from="1528971139643" duration="2032000" />
-      <workItem from="1528980554670" duration="5270000" />
+      <workItem from="1528980554670" duration="5518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9239000" />
+    <option name="totallyTimeSpent" value="9487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986508" />
       <window_info anchor="bottom" id="TODO" order="6" />
