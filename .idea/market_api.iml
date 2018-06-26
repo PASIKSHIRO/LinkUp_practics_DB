@@ -644,6 +644,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="simple_form (vbundled(4.0.1)) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/simple_form-4.0.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/simple_form-4.0.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="spring (vbundled(2.0.2)) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.5.0/gems/spring-2.0.2/lib" />
