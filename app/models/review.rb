@@ -1,6 +1,7 @@
 class Review < ApplicationRecord
   belongs_to :user
   belongs_to :response, polymorphic: true
+  validate :leave_item, :leave_user, on: :create
 
   def leave_user
     return unless response_type == 'User'
